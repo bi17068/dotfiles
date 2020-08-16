@@ -1,0 +1,6 @@
+#Node.jsとvagrant の環境 N予備校の環境
+curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.34.0/install.sh | bash
+source ~/.bashrc
+nvm install v10.14.2
+nvm use v10.14.2
+node --version
